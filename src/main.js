@@ -3,19 +3,19 @@
 /**
  * Desafio API Github - Utilizando as features ES6
  * 
- * 1 - Crie uma variavel que contem o userId de algum usuario do GitHub.
+ * 1 - Crie uma variável que contem o userId de um usuário do GitHub.
  *
- * 2 - Crie uma funcao getUserData() que receba como parametro 
- *     o userId do Github e dentro da funcao faca chamada da API
+ * 2 - Crie uma função getUserData() que receba como parametro 
+ *     o userId do Github e dentro da função faça chamada da API
  *     com o exemplo abaixo do axios.
  *
- * 3 - Caso a API retornar os dados, chame uma funcao isPopular() passando 
- *     os dados da requisicao como parametro
+ * 3 - Caso a API retornar os dados, chame uma função isPopular() passando 
+ *     os dados da requisição como parametro
  *
- * 4 - Na funcao isPopular(), verifique se o numero de seguidores
+ * 4 - Na função isPopular(), verifique se o numero de seguidores
  *     e maior que os de seguindo. 
- *      - Caso tenha mais seguidores, mostre na tela "O usuario $name possui uma conta popular!"
- *      - Caso tenha mais seguindo, mostre na tela "O usuario $name precisa melhorar sua popularidade"
+ *      - Caso tenha mais seguidores, mostre na tela "O usuário $name possui uma conta popular!"
+ *      - Caso tenha mais seguindo, mostre na tela "O usuário $name precisa melhorar sua popularidade!"
  */
 
 /* Exemplo axios */
