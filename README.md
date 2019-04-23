@@ -1,4 +1,4 @@
-# dojo-es6
+
 ## Desafio API Github - Features ES6
 
 ### 1 - Crie uma variável que contém o userId de um usuário do GitHub.
@@ -10,9 +10,8 @@
 #### Example Axios
 
     axios.get("https://api.github.com/users/$userId")
-	    .then(function(response) {
-		    console.log(response);
-		}).catch(function(error) {
-			console.warn(error);
-		});
-
+      .then(function(response) {
+        console.log(response);
+      }).catch(function(error) {
+      console.warn(error);
+      });
